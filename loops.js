@@ -13,8 +13,19 @@ return array
 
 
 
-//function whileLoop(n) {
-  //while (n > 0){
-    //console.log(--n)}
-    //return n
-//}
+function whileLoop(n) {
+  while (n > 0){
+    console.log(--n)}
+    return 'done'
+}
+
+function maybeTrue() {
+  return Math.random() >= 0.5
+}
+
+function doWhileLoop(array){
+  do {
+    array.slice()
+  } while (array.length = 0 && maybeTrue === false)
+  return array
+}
